@@ -23,6 +23,7 @@ export default function App() {
             </PrivateRoute>
           }
         />
+        <Route path="*" element={<Signin />} />
       </Routes>
       <Footer />
     </div>
